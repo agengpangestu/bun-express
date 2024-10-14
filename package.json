@@ -1,4 +1,7 @@
 {
+    "name": "bun-express-example",
+    "version": "0.0.1",
+    "main": "server.js",
     "scripts": {
         "start": "bun run src/server.js"
     },
