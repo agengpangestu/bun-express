@@ -1,7 +1,7 @@
 import express from 'express';
 
 const server = express();
-const port = 157;
+const port = process.env.PORT;
 
 server.use(express.json());
 
